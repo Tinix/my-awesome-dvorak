@@ -488,8 +488,8 @@ xkb_symbols "dvorak-r" {
 };
 
 // Classic dvorak layout
-// by Piter Punk <piterpk@terra.com.br> - 2006-07-06 
-// Based on dvorak layout and e-mail from Russel L. Harris rlharris@oplink.net 
+// by Piter Punk <piterpk@terra.com.br> - 2006-07-06
+// Based on dvorak layout and e-mail from Russel L. Harris rlharris@oplink.net
 // on xorg list.
 partial alphanumeric_keys
 xkb_symbols "dvorak-classic" {
@@ -571,6 +571,7 @@ xkb_symbols "dvp" {
     key <AE05> { [ parenright,      1,              EuroSign                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE06> { [ equal,           9,              sterling                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
 
+    //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, right side
     key <AE07> { [ greater,         0                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE08> { [ less,            2,              onehalf                     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
@@ -580,6 +581,7 @@ xkb_symbols "dvp" {
     key <AE12> { [ grave,           numbersign,     dead_grave                  ] };
     key <BKSP> { [ BackSpace,       BackSpace                                   ] };
 
+    //             Unmodified       Shift           AltGr            Shift+AltGr
     // upper row, left side
     key <AD01> { [ colon,           backslash,      dead_diaeresis              ] };
     key <AD02> { [ comma,           asterisk,       guillemotleft,   U201C      ] };
@@ -587,26 +589,29 @@ xkb_symbols "dvp" {
     key <AD04> { [ p,               P,              paragraph,       section    ] };
     key <AD05> { [ y,               Y,              udiaeresis,      Udiaeresis ] };
 
+    //             Unmodified       Shift           AltGr            Shift+AltGr
     // upper row, right side
     key <AD08> { [ c,               C,              ccedilla,        Ccedilla   ] };
     key <AD09> { [ r,               R,              registered,      trademark  ] };
     key <AD11> { [ semicolon,       question,       questiondown,    U203D      ] };  // interrobang
     key <AD12> { [ at,              asciicircum,    dead_circumflex, dead_caron ] };
 
+    //             Unmodified       Shift           AltGr            Shift+AltGr
     // home row, left side
     key <AC01> { [ a,               A,              aring,           Aring      ] };
     key <AC02> { [ o,               O,              oslash,          Ooblique   ] };
     key <AC03> { [ e,               E,              ae,              AE         ] };
     key <AC04> { [ u,               U,              eacute,          Eacute     ] };
 
+    //             Unmodified       Shift           AltGr            Shift+AltGr
     // home row, right side
     key <AC06> { [ d,               D,              eth,             ETH        ] };
-    key <AC07> { [ h,               H,              dead_acute                  ] };
-    key <AC08> { [ t,               T,              thorn,           THORN      ] };
-    key <AC09> { [ n,               N,              ntilde,          Ntilde     ] };
-    key <AC10> { [ s,               S,              ntilde,          Ntilde     ] };
+    key <AC07> { [ h,               H,              Left                        ] };
+    key <AC08> { [ t,               T,              Down                        ] };
+    key <AC09> { [ n,               N,              Up                          ] };
+    key <AC10> { [ s,               S,              Down                        ] };
     key <AC11> { [ minus,           underscore,     hyphen,          endash     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <BKSL> { [ slash,           bar                                         ] };
+    key <BKSL> { [ slash,           bar,            ntilde,          Ntilde     ] };
 
     // Remap ctrl to caps
     key <CAPS> { [ Control_L                                                    ] };
@@ -882,7 +887,7 @@ xkb_symbols "classmate-intl" {
 
     key <LSGT> { [ backslash,	bar,		backslash,	bar ] };
 
-    key <KP7>  { [	KP_Home,		KP_7,	
+    key <KP7>  { [	KP_Home,		KP_7,
 			onehalf,		dead_horn	] };
     key <KP8>  { [	KP_Up,			KP_8,
 			threequarters,		dead_ogonek	] };
@@ -961,7 +966,7 @@ xkb_symbols "classmate-altgr-intl" {
 
     key <LSGT> { [ backslash,	bar,		backslash,	bar ] };
 
-    key <KP7>  { [	KP_Home,		KP_7,	
+    key <KP7>  { [	KP_Home,		KP_7,
 			dead_horn,		dead_horn	] };
     key <KP8>  { [	KP_Up,			KP_8,
 			dead_ogonek,		dead_ogonek	] };
