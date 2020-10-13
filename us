@@ -610,7 +610,7 @@ xkb_symbols "dvp" {
     key <AC08> { [ t,               T,              Down                        ] };
     key <AC09> { [ n,               N,              Up                          ] };
     key <AC10> { [ s,               S,              Down                        ] };
-    key <AC11> { [ minus,           underscore,     hyphen,          endash     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AC11> { [ minus,           underscore                                  ] };
     key <BKSL> { [ slash,           bar,            ntilde,          Ntilde     ] };
 
     // Remap ctrl to caps
