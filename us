@@ -608,12 +608,12 @@ xkb_symbols "dvp" {
     key <AC06> { [ d,               D,              eth,             ETH        ] };
     key <AC07> { [ h,               H,              Left                        ] };
     key <AC08> { [ t,               T,              Down                        ] };
-    key <AC09> { [ n,               N,              Up                          ] };
-    key <AC10> { [ s,               S,              Down                        ] };
+    key <AC09> { [ n,               N,              Up,              ntilde     ] };
+    key <AC10> { [ s,               S,              Right                       ] };
     key <AC11> { [ minus,           underscore                                  ] };
-    key <BKSL> { [ slash,           bar,            ntilde,          Ntilde     ] };
+    key <BKSL> { [ slash,           bar                                         ] };
 
-    // Remap ctrl to caps
+    // Remap ctrl to cap
     key <CAPS> { [ Control_L                                                    ] };
     key <LCTL> { [ Caps_Lock                                                    ] };
 
