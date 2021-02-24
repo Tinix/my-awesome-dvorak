@@ -564,7 +564,7 @@ xkb_symbols "dvp" {
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, left side
     key <TLDE> { [ dollar,          asciitilde,     dead_tilde                  ] };
-    key <AE01> { [ ampersand,       percent                                     ] };
+    key <AE01> { [ ampersand,       at                                          ] };
     key <AE02> { [ bracketleft,     7,              currency                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE03> { [ braceleft,       5,              cent                        ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE04> { [ braceright,      3,              yen                         ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
@@ -591,7 +591,7 @@ xkb_symbols "dvp" {
     key <AD08> { [ c,               C,              ccedilla,        Ccedilla   ] };
     key <AD09> { [ r,               R,              registered,      trademark  ] };
     key <AD11> { [ slash,           question,       questiondown,    U203D      ] };  // interrobang
-    key <AD12> { [ at,              asciicircum,    dead_circumflex, dead_caron ] };
+    key <AD12> { [ percent,         asciicircum,    dead_circumflex, dead_caron ] };
 
     // home row, left side
     key <AC01> { [ a,               A,              aring,           Aring      ] };
@@ -605,7 +605,7 @@ xkb_symbols "dvp" {
     key <AC08> { [ t,               T,              thorn,           THORN      ] };
     key <AC09> { [ n,               N,              ntilde,          Ntilde     ] };
     key <AC10> { [ s,               S,              ssharp,          U1E9E      ] };
-    key <AC11> { [ minus,           underscore,     hyphen,          endash     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AC11> { [ underscore,      minus,          hyphen,          endash     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <BKSL> { [ backslash,       bar                                         ] };
 
     // lower row, left side
