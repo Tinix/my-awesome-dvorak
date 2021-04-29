@@ -610,11 +610,11 @@ xkb_symbols "dvp" {
     key <AC08> { [ t,               T,              Down                        ] };
     key <AC09> { [ n,               N,              Up,              ntilde     ] };
     key <AC10> { [ s,               S,              Right                       ] };
-    key <AC11> { [ slash,           ampersand				        ] };
-    key <BKSL> { [ minus,           bar                                         ] };
+    key <AC11> { [ slash,           underscore				        ] };
+    key <BKSL> { [ ampersand,       bar                                         ] };
 
     key <LSGT> { [ underscore,      percent                                     ] };
-    key <RWIN> { [ underscore,      percent                                     ] };
+    key <RWIN> { [ minus,           percent                                     ] };
 
     // Remap ctrl to caps
     key <CAPS> { [ Control_L                                                    ] };
