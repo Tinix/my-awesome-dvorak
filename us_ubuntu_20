@@ -564,7 +564,7 @@ xkb_symbols "dvp" {
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, left side
     key <TLDE> { [ asciitilde,      minus,          dead_tilde                  ] };
-    key <AE01> { [ dollar,          at                                          ] };
+    key <AE01> { [ at,              dollar                                      ] };
     key <AE02> { [ braceleft,       7,              currency                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE03> { [ braceright,      5,              cent                        ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE04> { [ parenleft,       3,              yen                         ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
