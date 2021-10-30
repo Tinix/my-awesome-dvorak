@@ -1,0 +1,7 @@
+// programmer javascript Dvorak, by Nicolas Rodriguez <nicoandres.rodriguez at gmail dot com>
+// Main features: Numbers are in shift position (like French), symbols have been
+// placed in locations that give good hand-alternation and finger rolling with
+// symbols that usually follows, accented characters are possible for I18N,
+// and AltGr allows vim motions.
+// Patch suggestions should be sent upstream.
+
