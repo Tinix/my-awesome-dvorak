@@ -54,7 +54,7 @@ xkb_symbols "basic" {
 
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // home row, left side
-    key <AC01> { [ a,               A,              aring,           Aring      ] };
+    key <AC01> { [ a,               A,              slash,           Aring      ] };
     key <AC02> { [ o,               O,              oslash,          Ooblique   ] };
     key <AC03> { [ e,               E,              ae,              AE         ] };
     key <AC04> { [ u,               U,              eacute,          Eacute     ] };
@@ -66,7 +66,7 @@ xkb_symbols "basic" {
     key <AC08> { [ t,               T,              Down                        ] };
     key <AC09> { [ n,               N,              Up,              ntilde     ] };
     key <AC10> { [ s,               S,              Right                       ] };
-    key <AC11> { [ minus,           underscore,     slash		        ] };
+    key <AC11> { [ minus,           underscore,     aring		        ] };
     key <BKSL> { [ ampersand,       bar                                         ] };
 
     key <LSGT> { [ underscore,      percent                                     ] };
