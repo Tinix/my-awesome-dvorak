@@ -1,4 +1,4 @@
-// programmer javascript Dvorak, by Nicolas Rodriguez <nicoandres.rodriguez at gmail dot com>
+// programmer javascript Dvorak, by Nicoandres Rodriguez <nicoandres.rodriguez at gmail dot com>
 // Main features: Numbers are in shift position (like French), symbols have been
 // placed in locations that give good hand-alternation and finger rolling with
 // symbols that usually follows, accented characters are possible for I18N,
@@ -11,6 +11,28 @@
 // symbols that usually follows, accented characters are possible for I18N,
 // and AltGr allows vim motions.
 // Patch suggestions should be sent upstream.
+//
+// ┌─────┐
+// │ 2 4 │   2 = Shift,  4 = Level3 + Shift
+// │ 1 3 │   1 = Normal, 3 = Level3
+// └─────┘
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+// │ -   │ $   │ @ " │ # ˝ │ $ ¸ │ % ˇ │ ^ ^ │ & ˘ │ * ˙ │  ( ̣ │ ) ° │ _ ¯ │ + ˛ ┃ ⌫ Back  ┃
+// │ ~   │ @   │ 2 © │ 3 • │ 4 § │ 5 € │ 6 ¢ │ 7 − │ 8 × │ 9 ÷ │ 0 ° │ - – │ = — ┃  space  ┃
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+// ┃       ┃ Q   │ W   │ E Ę │ R   │ T   │ Y   │ U   │ I   │ O Ó │ P   │ { « │ } » ┃ Enter ┃
+// ┃Tab ↹  ┃ q   │ w   │ e ę │ r   │ t   │ y   │ u   │ i   │ o ó │ p   │ [ ‹ │ ] › ┃   ⏎   ┃
+// ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+// ┃        ┃ A Ą │ S Ś │ D   │ F   │ G   │ H   │ J   │ K   │ L Ł │ : “ │ " ” │ | ¶ ┃      ┃
+// ┃Ctrl    ┃ a ą │ s ś │ d   │ f   │ g   │ h   │ j   │ k   │ l ł │ ; ‘ │ ' ’ │ \   ┃      ┃
+// ┣━━━━━━━━┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━┫
+// ┃             │ Z Ż │ X Ź │ C Ć │ V   │ B   │ N Ń │ M   │ < „ │ > · │ ? ¿ ┃             ┃
+// ┃Shift ⇧      │ z ż │ x ź │ c ć │ v   │ b   │ n ń │ m   │ , ‚ │ . … │ / ⁄ ┃Shift ⇧      ┃
+// ┣━━━━━━━┳━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━━┛
+// ┃       ┃       ┃       ┃ ␣                               ⍽ ┃       ┃       ┃       ┃
+// ┃Caps ⇬ ┃Meta   ┃Alt    ┃ ␣           Space               ⍽ ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
 default
 xkb_symbols "basic" {
 
@@ -67,7 +89,7 @@ xkb_symbols "basic" {
     key <AC09> { [ n,               N,              Up,              ntilde     ] };
     key <AC10> { [ s,               S,              Right                       ] };
     key <AC11> { [ minus,           underscore,     aring		        ] };
-    key <BKSL> { [ ampersand,       bar                                         ] };
+    key <BKSL> { [ bar,             ampersand                                   ] };
 
     key <LSGT> { [ underscore,      percent                                     ] };
     key <RWIN> { [ minus,           percent                                     ] };
