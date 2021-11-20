@@ -18,17 +18,17 @@
 // │ 1 3 │   1 = Normal, 3 = AltGr
 // └─────┘
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
-// │ %   │ $   │ 7   │ 5   │ 3   │ 1   │ 9   │ 0   │ 2   │ 4   │ 6   │ 8   │ ´ ˇ ┃ ⌫ Back  ┃
-// │ ~   │ @   │ { ¤ │ } ¢ │ ( ¥ │ ) € │ = £ │ <   │ >   │ [   │ ]   │ ! ¡ │ ` ¨ ┃  space  ┃
-// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
-// ┃       ┃ \   │ *   │ +   │     │     │     │     │   Ç │     │     │ ?   │ ^   ┃ Enter ┃
-// ┃Tab ↹  ┃ : / │ ,   │ .   │ P   │ Y   │ F   │ G   │ C ç │ R   │ L   │ ; ¿ │ #   ┃   ⏎   ┃
+// │     │     │ 7   │ 5   │ 3   │ 1 € │ 9 ¿ │ 0   │ 2   │ 4   │ 6   │ 8   │ ´ ˇ ┃ ⌫ Back  ┃
+// │ ~   │ @   │ { } │ ( ) │ [ ] │ < > │ = ? │ '   │ "   │ %   │ $   │ ! ¡ │ ` ¨ ┃  space  ┃
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┩
+// ┃       ┃ -   │ *   │ +   │     │     │     │     │   Ç │     │     │     │ ^   ┃ Enter ┃
+// ┃Tab ↹  ┃ : _ │ ,   │ .   │ P   │ Y   │ F   │ G   │ C ç │ R   │ L   │ ;   │ #   ┃   ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-// ┃        ┃     │     │     │     │     │     │     │     │     │     │ _   │ &   ┃      ┃
-// ┃Ctrl    ┃ A   │ O   │ E   │ U   │ I   │ D   │ H ← │ T ↓ │ N ↑ │ S → │ -   │ |   ┃      ┃
+// ┃        ┃     │     │     │     │     │     │     │     │     │     │ \   │ &   ┃      ┃
+// ┃Ctrl    ┃ A   │ O   │ E   │ U   │ I   │ D   │ H ← │ T ↓ │ N ↑ │ S → │ /   │ |   ┃      ┃
 // ┣━━━━━━┳━┹───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┷━━━━━┻━━━━━━┫
-// ┃      ┃     │ " ” │     │     │     │     │     │     │     │     │     ┃              ┃
-// ┃Shift⇧┃ /   │ ' “ │ Q   │ J   │ K   │ X   │ B   │ M   │ W   │ V   │ Z   ┃Shift ⇧       ┃
+// ┃      ┃     │     │     │     │     │     │     │     │     │     │     ┃              ┃
+// ┃Shift⇧┃ &   │ $   │ Q   │ J   │ K   │ X   │ B   │ M   │ W   │ V   │ Z   ┃Shift ⇧       ┃
 // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━╈━━━━━┻┳━━━━━━┳━━━━━━┫
 // ┃       ┃       ┃       ┃ ␣                               ⍽ ┃      ┃      ┃      ┃      ┃
 // ┃Caps ⇬ ┃ Fn    ┃Alt    ┃ ␣           Space               ⍽ ┃AltGr ┃Ctrl  ┃RWin  ┃      ┃
@@ -37,17 +37,17 @@
 // ANSI
 //
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
-// │ %   │ $   │ 7   │ 5   │ 3   │ 1   │ 9   │ 0   │ 2   │ 4   │ 6   │ 8   │ ´ ˇ ┃ ⌫ Back  ┃
-// │ ~   │ @   │ { ¤ │ } ¢ │ ( ¥ │ ) € │ = £ │ <   │ >   │ [   │ ]   │ ! ¡ │ ` ¨ ┃  space  ┃
+// │     │ $   │ 7   │ 5   │ 3   │ 1 € │ 9   │ 0   │ 2   │ 4   │ 6   │ 8   │ ´ ˇ ┃ ⌫ Back  ┃
+// │ ~   │ @   │ { } │ ( ) │ [ ] │ < > │ =   │ '   │ "   │ %   │ $   │ ! ¡ │ ` ¨ ┃  space  ┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━━━━━┩
-// ┃       ┃ \   │ *   │ +   │     │     │     │     │   Ç │     │     │ ?   │ ^   │  &    │
-// ┃Tab ↹  ┃ : / │ ,   │ .   │ P   │ Y   │ F   │ G   │ C ç │ R   │ L   │ ; ¿ │ #   │  |    │
+// ┃       ┃ -   │ *   │ +   │     │     │     │     │   Ç │     │     │     │ ^   │  &    │
+// ┃Tab ↹  ┃ : _ │ ,   │ .   │ P   │ Y   │ F   │ G   │ C ç │ R   │ L   │ ;   │ #   │  |    │
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┲━━━━┷━━━━━━━┪ 
-// ┃        ┃     │     │     │     │     │     │     │     │     │     │ _   ┃   Enter    ┃
-// ┃Ctrl    ┃ A   │ O   │ E   │ U   │ I   │ D   │ H ← │ T ↓ │ N ↑ │ S → │ -   ┃     ⏎      ┃
+// ┃        ┃     │     │     │     │     │     │     │     │     │     │ \   ┃   Enter    ┃
+// ┃Ctrl    ┃ A   │ O   │ E   │ U   │ I   │ D   │ H ← │ T ↓ │ N ↑ │ S → │ /   ┃     ⏎      ┃
 // ┣━━━━━━━━┻━━━┱─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━━━━━━━━┫
-// ┃            ┃ " ” │     │     │     │     │     │     │     │     │     ┃              ┃
-// ┃Shift ⇧     ┃ ' “ │ Q   │ J   │ K   │ X   │ B   │ M   │ W   │ V   │ Z   ┃Shift ⇧       ┃
+// ┃            ┃     │     │     │     │     │     │     │     │     │     ┃              ┃
+// ┃Shift ⇧     ┃ $   │ Q   │ J   │ K   │ X   │ B   │ M   │ W   │ V   │ Z   ┃Shift ⇧       ┃
 // ┣━━━━━━━┳━━━━┻━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━╈━━━━━┻┳━━━━━━┳━━━━━━┫
 // ┃       ┃       ┃       ┃ ␣                               ⍽ ┃      ┃      ┃      ┃      ┃
 // ┃Caps ⇬ ┃ Fn    ┃Alt    ┃ ␣           Space               ⍽ ┃AltGr ┃Ctrl  ┃RWin  ┃      ┃
@@ -63,20 +63,20 @@ xkb_symbols "basic" {
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, left side
 
-    key <TLDE> { [ asciitilde,      percet,         dead_tilde                       ] };
-    key <AE01> { [ at,              dollar                                           ] };
-    key <AE02> { [ braceleft,       7,              currency                         ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE03> { [ braceright,      5,              cent                             ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE04> { [ parenleft,       3,              yen                              ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE05> { [ parenright,      1,              EuroSign                         ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE06> { [ equal,           9,              sterling                         ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <TLDE> { [ asciitilde,      asciitilde,     dead_tilde                       ] };
+    key <AE01> { [ at                                                                ] };
+    key <AE02> { [ braceleft,       7,              braceright                       ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE03> { [ parenleft,       5,              parenright                       ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE04> { [ bracketleft,     3,              bracketright                     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE05> { [ less,            1,              greater,         EuroSign        ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE06> { [ equal,           9,              question,        questiondown    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
 
     // symbols row, right side
 
-    key <AE07> { [ less,            0                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE08> { [ greater,         2                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE09> { [ bracketleft,     4                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE10> { [ bracketright,    6                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE07> { [ apostrophe,      0                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE08> { [ quotedbl,        2                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE09> { [ percent,         4                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE10> { [ dollar,          6                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE11> { [ exclam,          8,              exclamdown                       ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE12> { [ grave,           dead_acute,     dead_diaeresis,  dead_caron      ] };
     key <BKSP> { [ BackSpace,       BackSpace                                        ] };
@@ -84,7 +84,7 @@ xkb_symbols "basic" {
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // upper row, left side
 
-    key <AD01> { [ colon,           backslash,      slash                            ] };
+    key <AD01> { [ colon,           minus,         underscore                        ] };
     key <AD02> { [ comma,           asterisk                                         ] };
     key <AD03> { [ period,          plus                                             ] };
     key <AD04> { [ p,               P                                                ] };
@@ -95,7 +95,8 @@ xkb_symbols "basic" {
 
     key <AD08> { [ c,               C,              ccedilla,        Ccedilla        ] };
     key <AD09> { [ r,               R                                                ] };
-    key <AD11> { [ semicolon,       question,       questiondown                     ] };
+    key <AD10> { [ l,               L                                                ] };
+    key <AD11> { [ semicolon                                                         ] };
     key <AD12> { [ numbersign,      asciicircum,    dead_circumflex                  ] };
 
     //             Unmodified       Shift           AltGr            Shift+AltGr
@@ -114,18 +115,18 @@ xkb_symbols "basic" {
     key <AC08> { [ t,               T,              Down                             ] };
     key <AC09> { [ n,               N,              Up                               ] };
     key <AC10> { [ s,               S,              Right                            ] };
-    key <AC11> { [ minus,           underscore                      		             ] };
+    key <AC11> { [ slash,           backslash                       		             ] };
     key <BKSL> { [ bar,             ampersand                                        ] };
 
-    key <LSGT> { [ slash                                                             ] };
-    key <RWIN> { [ percent                                                           ] };
+    //             Unmodified       Shift           AltGr            Shift+AltGr
+    // lower row, left side
+    key <LSGT> { [ ampersand                                                         ] };
+    key <AB01> { [ dollar                                                            ] };
 
     // Remap ctrl to caps
     key <CAPS> { [ Control_L                                                         ] };
     key <LCTL> { [ Caps_Lock                                                         ] };
-
-    // lower row, left side
-    key <AB01> { [ apostrophe,      quotedbl,       guillemotleft,   guillemotright  ] };
+    key <RWIN> { [ percent                                                           ] };
 
     include "level3(ralt_switch)"
 };
