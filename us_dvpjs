@@ -18,8 +18,8 @@
 // │ 1 3 │   1 = Normal, 3 = AltGr
 // └─────┘
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
-// │     │     │ 7   │ 5   │ 3   │ 1 € │ 9 ¿ │ 0   │ 2   │ 4   │ 6   │ 8   │ ´ ˇ ┃ ⌫ Back  ┃
-// │ ~   │ @   │ { } │ ( ) │ [ ] │ < > │ = ? │ '   │ "   │ %   │ $   │ ! ¡ │ ` ¨ ┃  space  ┃
+// │ €   │     │ 7   │ 5   │ 3   │ 1   │ 9   │ 0   │ 2   │ 4   │ 6   │ 8   │ ´ ˇ ┃ ⌫ Back  ┃
+// │ ~   │ @   │ { } │ [ ] │ ( ) │ <   │ =   │ >   │ ? ¿ │ %   │ $   │ ! ¡ │ ` ¨ ┃  space  ┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┩
 // ┃       ┃ \   │ *   │ +   │     │     │     │     │   Ç │     │     │     │ ^   ┃ Enter ┃
 // ┃Tab ↹  ┃ :   │ ,   │ .   │ P   │ Y   │ F   │ G   │ C ç │ R   │ L   │ ;   │ #   ┃   ⏎   ┃
@@ -28,17 +28,17 @@
 // ┃Ctrl    ┃ A   │ O   │ E   │ U   │ I   │ D   │ H ← │ T ↓ │ N ↑ │ S → │ / _ │ |   ┃      ┃
 // ┣━━━━━━┳━┹───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┷━━━━━┻━━━━━━┫
 // ┃      ┃     │     │     │     │     │     │     │     │     │     │     ┃              ┃
-// ┃Shift⇧┃ &   │ $   │ Q   │ J   │ K   │ X   │ B   │ M   │ W   │ V   │ Z   ┃Shift ⇧       ┃
+// ┃Shift⇧┃ &   │ ' " │ Q   │ J   │ K   │ X   │ B   │ M   │ W   │ V   │ Z   ┃Shift ⇧       ┃
 // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━╈━━━━━┻┳━━━━━━┳━━━━━━┫
-// ┃       ┃       ┃       ┃ ␣                               ⍽ ┃      ┃      ┃      ┃      ┃
-// ┃Caps ⇬ ┃ Fn    ┃Alt    ┃ ␣           Space               ⍽ ┃AltGr ┃Ctrl  ┃RWin  ┃      ┃
+// ┃       ┃       ┃       ┃ ␣                               ⍽ ┃      ┃      ┃rwin  ┃      ┃
+// ┃Caps ⇬ ┃ Fn    ┃Alt    ┃ ␣           Space               ⍽ ┃AltGr ┃Ctrl  ┃ -    ┃      ┃
 // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━┻━━━━━━┻━━━━━━┻━━━━━━┛
 //
 // ANSI
 //
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
-// │     │ $   │ 7   │ 5   │ 3   │ 1 € │ 9   │ 0   │ 2   │ 4   │ 6   │ 8   │ ´ ˇ ┃ ⌫ Back  ┃
-// │ ~   │ @   │ { } │ ( ) │ [ ] │ < > │ =   │ '   │ "   │ %   │ $   │ ! ¡ │ ` ¨ ┃  space  ┃
+// │ €   │ $   │ 7   │ 5   │ 3   │ 1   │ 9   │ 0   │ 2   │ 4   │ 6   │ 8   │ ´ ˇ ┃ ⌫ Back  ┃
+// │ ~   │ @   │ { } │ [ ] │ ( ) │ <   │ =   │ >   │ ? ¿ │ %   │ $   │ ! ¡ │ ` ¨ ┃  space  ┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━━━━━┩
 // ┃       ┃ \   │ *   │ +   │     │     │     │     │   Ç │     │     │     │ ^   │  &    │
 // ┃Tab ↹  ┃ :   │ ,   │ .   │ P   │ Y   │ F   │ G   │ C ç │ R   │ L   │ ;   │ #   │  |    │
@@ -47,10 +47,10 @@
 // ┃Ctrl    ┃ A   │ O   │ E   │ U   │ I   │ D   │ H ← │ T ↓ │ N ↑ │ S → │ / _ ┃     ⏎      ┃
 // ┣━━━━━━━━┻━━━┱─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━━━━━━━━┫
 // ┃            ┃     │     │     │     │     │     │     │     │     │     ┃              ┃
-// ┃Shift ⇧     ┃ $   │ Q   │ J   │ K   │ X   │ B   │ M   │ W   │ V   │ Z   ┃Shift ⇧       ┃
+// ┃Shift ⇧     ┃ ' " │ Q   │ J   │ K   │ X   │ B   │ M   │ W   │ V   │ Z   ┃Shift ⇧       ┃
 // ┣━━━━━━━┳━━━━┻━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━╈━━━━━┻┳━━━━━━┳━━━━━━┫
-// ┃       ┃       ┃       ┃ ␣                               ⍽ ┃      ┃      ┃      ┃      ┃
-// ┃Caps ⇬ ┃ Fn    ┃Alt    ┃ ␣           Space               ⍽ ┃AltGr ┃Ctrl  ┃RWin  ┃      ┃
+// ┃       ┃       ┃       ┃ ␣                               ⍽ ┃      ┃      ┃rwin  ┃      ┃
+// ┃Caps ⇬ ┃ Fn    ┃Alt    ┃ ␣           Space               ⍽ ┃AltGr ┃Ctrl  ┃ -    ┃      ┃
 // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━┻━━━━━━┻━━━━━━┻━━━━━━┛
 //
 //
@@ -63,18 +63,18 @@ xkb_symbols "basic" {
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, left side
 
-    key <TLDE> { [ asciitilde,      asciitilde,     dead_tilde                       ] };
+    key <TLDE> { [ asciitilde,      EuroSign,       dead_tilde                       ] };
     key <AE01> { [ at                                                                ] };
     key <AE02> { [ braceleft,       7,              braceright                       ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE03> { [ parenleft,       5,              parenright                       ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE04> { [ bracketleft,     3,              bracketright                     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE05> { [ less,            1,              greater,         EuroSign        ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE06> { [ equal,           9,              question,        questiondown    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE03> { [ bracketleft,     5,              bracketright                     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE04> { [ parenleft,       3,              parenright                       ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE05> { [ less,            1                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE06> { [ equal,           9                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
 
     // symbols row, right side
 
-    key <AE07> { [ apostrophe,      0                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE08> { [ quotedbl,        2                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE07> { [ greater,         0                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE08> { [ question,        2,              questiondown                     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE09> { [ percent,         4                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE10> { [ dollar,          6                                                ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE11> { [ exclam,          8,              exclamdown                       ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
@@ -121,12 +121,12 @@ xkb_symbols "basic" {
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // lower row, left side
     key <LSGT> { [ ampersand                                                         ] };
-    key <AB01> { [ dollar                                                            ] };
+    key <AB01> { [ apostrophe,      quotedbl                                         ] };
 
     // Remap ctrl to caps
     key <CAPS> { [ Control_L                                                         ] };
     key <LCTL> { [ Caps_Lock                                                         ] };
-    key <RWIN> { [ percent                                                           ] };
+    key <RWIN> { [ minus                                                             ] };
 
     include "level3(ralt_switch)"
 };
