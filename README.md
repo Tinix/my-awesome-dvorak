@@ -15,6 +15,9 @@ setxkbmap us_dvpjs
 
 enjoy it.
 
+## Mac users
+copy the `dvp_js.bundle` into `/Library/Keyboard Layouts/` (open it, in finder press 'cmd+shift+g')
+
 ### Drawing lines
  
          0123456789abcdef | │╎┆┊╵╷╽ ─ ╴╶ ╼ ╌ ┄ ┈ | Common elements:
