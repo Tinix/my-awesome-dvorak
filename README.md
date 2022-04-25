@@ -25,6 +25,12 @@ open ~/.config/dvorak
 ```
 copy the `dvp_js.bundle` into `/Library/Keyboard Layouts/` (open it, in finder press 'cmd+shift+g')
 
+or in shell do
+
+```sh
+sudo cp -r dvp_js.bundle/ /Library/Keyboard\ Layouts/dvp_js.bundle/
+```
+
 ### Drawing lines
  
          0123456789abcdef | │╎┆┊╵╷╽ ─ ╴╶ ╼ ╌ ┄ ┈ | Common elements:
