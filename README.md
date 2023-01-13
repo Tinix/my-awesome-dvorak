@@ -38,6 +38,16 @@ or in shell do
 sudo cp -R ~/.config/dvorak/dvp_js.bundle/ /Library/Keyboard\ Layouts/dvp_js.bundle
 ```
 
+### Extend
+See keycodes with `xev`
+```sh
+sudo pacman -S xorg-xev
+```
+check keycodes with
+```sh
+xev -event keyboard
+```
+
 ### Drawing lines
  
          0123456789abcdef | │╎┆┊╵╷╽ ─ ╴╶ ╼ ╌ ┄ ┈ | Common elements:
